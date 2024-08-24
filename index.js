@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.classList.add('-translate-y-full');
         }
         else{
+            flag=0;
             navbar.classList.remove('-translate-y-full');
         }
         if(scrolltop<=0){
