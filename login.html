@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RevX Skins - Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="index.js" defer></script> </head>
+<body class="bg-[url('./res/17.webp')] bg-cover bg-no-repeat bg-center font-sans">
+    <nav class="nav-bar h-[75px] w-full bg-[rgba(0,0,0,0.5)] flex flex-row justify-end items-center lg:relative fixed  transition duration-500">
+        <ul class="min-w-0 hidden lg:flex flex-row justify-end items-center mx-5">
+            <li class="mx-3"><a href="./index.html" class="block px-6 py-3 bg-[rgba(0,0,0,0.3)] border-[1px] text-white rounded-[20px] hover:bg-transparent transition-colors duration-500">Home</a></li>
+            <li class="mx-3"><a href="#" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-colors duration-300">Buy Now</a></li>
+            <li class="mx-3"><a href="category.html" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-colors duration-200">Category</a></li>
+            <li class="mx-3"><a href="#" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-colors duration-200">About Us</a></li>
+            <li class="mx-3"><a href="login.html" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-all duration-200">Login</a></li>
+        </ul>
+        <button class="xl:hidden lg:hidden menu-toggle mr-10">
+            <img src="./res/menu-symbol-of-three-parallel-lines-svgrepo-com (1).svg" class="h-[40px] w-auto" alt="Menu Icon">
+        </button>
+        <button class="xl:hidden lg:hidden menu-toggle2 2xl:flex flex-row items-end hidden">
+            <img src="./res/cross-svgrepo-com (1).svg" class="h-[40px] w-auto mr-10 lg:hidden" alt="Menu Icon">
+        </button>
+
+        <div class="nav-menu fixed top-0 right-0 w-[40%] bg-[rgba(0,0,0,0.3)] lg:hidden xl:hidden transform -translate-y-full transition-transform duration-500 ease-in-out">
+            <ul class="flex flex-col justify-start pt-[30px] mt-0 mx-0 pb-5">
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Home</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Buy</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Category</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">About Us</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+  <div class="h-screen flex justify-center items-center">
+    <div class="w-full max-w-md p-8 bg-white rounded-lg shadow-md">
+      <h1 class="text-2xl font-bold text-center mb-4">RevX Skins - Login</h1>
+
+      <form action="/login" method="post" class="space-y-4">
+        <div class="flex flex-col">
+          <label for="email" class="text-gray-700 font-medium mb-1">Email</label>
+          <input type="email" id="email" name="email" class="px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500" required>
+        </div>
+
+        <div class="flex flex-col">
+          <label for="password" class="text-gray-700 font-medium mb-1">Password</label>
+          <input type="password" id="password" name="password" class="px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500" required>
+          <a href="#" class="text-xs text-right text-gray-500 hover:underline">Forgot password?</a>
+        </div>
+
+        <div class="flex items-center justify-between">
+          <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Login</button>
+          <a href="signup.html" class="text-blue-500 hover:underline">Don't have an account? Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

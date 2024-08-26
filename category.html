@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories || RevX Skins</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js" defer></script>
+</head>
+<body class="bg-[url('./res/23.webp')] bg-cover bg-no-repeat">
+    <!-- Navbar -->
+    <nav class="nav-bar h-[75px] w-full bg-[rgba(0,0,0,0.5)] flex flex-row justify-end items-center lg:relative fixed  transition duration-500">
+        <ul class="min-w-0 hidden lg:flex flex-row justify-end items-center mx-5">
+            <li class="mx-3"><a href="./index.html" class="block px-6 py-3 bg-[rgba(0,0,0,0.3)] border-[1px] text-white rounded-[20px] hover:bg-transparent transition-colors duration-500">Home</a></li>
+            <li class="mx-3"><a href="#" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-colors duration-300">Buy Now</a></li>
+            <li class="mx-3"><a href="category.html" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-colors duration-200">Category</a></li>
+            <li class="mx-3"><a href="#" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-colors duration-200">About Us</a></li>
+            <li class="mx-3"><a href="login.html" class="block px-6 py-3 bg-white rounded-[20px] hover:text-gray-100 hover:bg-transparent hover:border-[1px] transition-all duration-200">Login</a></li>
+        </ul>
+        <button class="xl:hidden lg:hidden menu-toggle mr-10">
+            <img src="./res/menu-symbol-of-three-parallel-lines-svgrepo-com (1).svg" class="h-[40px] w-auto" alt="Menu Icon">
+        </button>
+        <button class="xl:hidden lg:hidden menu-toggle2 2xl:flex flex-row items-end hidden">
+            <img src="./res/cross-svgrepo-com (1).svg" class="h-[40px] w-auto mr-10 lg:hidden" alt="Menu Icon">
+        </button>
+
+        <div class="nav-menu fixed top-0 right-0 w-[40%] bg-[rgba(0,0,0,0.3)] lg:hidden xl:hidden transform -translate-y-full transition-transform duration-500 ease-in-out">
+            <ul class="flex flex-col justify-start pt-[30px] mt-0 mx-0 pb-5">
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Home</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Buy</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Category</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">About Us</a></li>
+                <li class="m-3"><a href="#" class="block px-6 py-3 bg-white text-center hover:text-gray-100 hover:bg-[rgba(0,0,0,0.57)] transition-[0.6s]">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-[100px] pb-10 px-5">
+        <div class="safety-container-2 max-w-[1200px] mx-auto">
+            <!-- Page Header -->
+            <div class="text-center mb-10">
+                <h1 class="text-4xl font-bold text-white">Explore Categories</h1>
+                <p class="text-lg text-gray-200 mt-2">Browse our diverse categories to find the perfect skin for your device.</p>
+            </div>
+
+            <!-- Category Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Category Item -->
+                <div class="category-item bg-white rounded-[16px] shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="./res/4.webp" alt="Category 1" class="w-full h-64 object-cover">
+                    <div class="p-5">
+                        <h2 class="text-2xl font-semibold text-gray-800">Category Name 1</h2>
+                        <p class="text-gray-600 mt-3">Description of Category 1, highlighting unique features or themes.</p>
+                        <a href="explore.html" class="text-white bg-blue-500 px-4 py-2 rounded-[20px] mt-5 inline-block hover:bg-blue-600">Explore</a>
+                    </div>
+                </div>
+                
+                <!-- Repeat similar blocks for other categories -->
+                <!-- Category Item 2 -->
+                <div class="category-item bg-white rounded-[16px] shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="./res/20.jpg" alt="Category 2" class="w-full h-64 object-cover">
+                    <div class="p-5">
+                        <h2 class="text-2xl font-semibold text-gray-800">Category Name 2</h2>
+                        <p class="text-gray-600 mt-3">Description of Category 2, highlighting unique features or themes.</p>
+                        <a href="#" class="text-white bg-blue-500 px-4 py-2 rounded-[20px] mt-5 inline-block hover:bg-blue-600">Explore</a>
+                    </div>
+                </div>
+
+                <!-- Category Item 3 -->
+                <div class="category-item bg-white rounded-[16px] shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="./res/21.webp" alt="Category 3" class="w-full h-64 object-cover">
+                    <div class="p-5">
+                        <h2 class="text-2xl font-semibold text-gray-800">Category Name 3</h2>
+                        <p class="text-gray-600 mt-3">Description of Category 3, highlighting unique features or themes.</p>
+                        <a href="#" class="text-white bg-blue-500 px-4 py-2 rounded-[20px] mt-5 inline-block hover:bg-blue-600">Explore</a>
+                    </div>
+                </div>
+
+                <!-- Add more category items as needed -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer h-[150px] w-full bg-[rgba(0,0,0,0.7)] mt-20 lg:mt-40 flex justify-center items-center">
+        <h1 class="text-white text-[24px] text-center">THEY GOT THE DRIP, YOU GOT THE WAVE</h1>
+    </footer>
+</body>
+</html>
